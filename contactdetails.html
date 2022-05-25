@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>87674513245</p>
+    <p>myemail@gmail.com</p>
+    <hr>
+    <!--Here the action refers what kind of action the browser takes when hit submit | Here the method post refers that all the data we inputted below will be posted and then mailed acc to action  -->
+    <!--enctype refers the encoding type here  text in which the data will be posted-->
+    <form action="mailto:g.priyanshu1212@gmail.com" method="post" enctype="text/plain">
+      <label for="">Your Name:</label>
+      <!--name attribute in input here refers how the data will be separted when action is taken-->
+      <input type="text" name="User Name" value=""><br>
+      <label for="">Your Email:</label>
+      <input type="email" name="User Email" value=""><br>
+      <label for="">Your message:</label><br>
+      <textarea name="User message" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="" value="submit">
+    </form>
+  </body>
+</html>
